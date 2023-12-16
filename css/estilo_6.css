@@ -1,0 +1,27 @@
+/* TEXT ::shadow */
+
+h1 {
+
+    text-shadow: 2px 2px red;
+}
+
+.branco {
+
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.multiplas {
+
+    color: black;
+    text-shadow: 0 0 3px red, 2px 2px 5px yellow;
+}
+
+/* BOX ::shadow */
+
+.caixa {
+    width: 40%;
+    height: 300px;
+    background: gray;
+    box-shadow: 5px 5px 15px red;
+}

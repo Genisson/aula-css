@@ -52,3 +52,18 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* ORDEM DE FORÇA - ESPECIFICIDADE CSS
+
+1) #id
+2) tag.classe
+3) .classe
+4) tag
+Obs. Css declarado com style direto na tag tem prioridade sobre os demais.
+
+se declarar usando no final " !important; " FAZ COM QUE TENHA PRIORIDADE 
+O QUE FOR MARCADO.(EVITAR USAR PARA NAO VIRAR BAGUNÇA).!
+
+
+
+*/
